@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- The <base> tag specifies a default URL and target for all links on a page that 
+         goes inside <head> </head>  
+    
+    <base href="https://www.w3schools.com/" target="_blank">
+    -->
+
+    <!-- The <style> tag adds style information to a page, it goes inside <head> </head> 
+    <style>
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+    -->
+
+    <!-- The <link> tag links page to an external style sheet, it goes inside <head> </head> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Page Title</title>
+
+</head>
+
+<body>
+
+    <h1>My First Heading</h1>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <p>My first paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <img src="graphics/w3s.png" alt="W3Schools.com" width="104" height="142">
+
+    <img src="graphics/stickman.gif" width="24" height="39" alt="Stickman">
+
+    <a href="https://www.w3schools.com/tags/tag_base.asp">HTML base Tag</a>
+
+    <h1 style="background-color:DodgerBlue;">Hello World with DodgerBlue back</h1>
+    <h2 style="color:Tomato;">Hello World with tomato color</h2>
+
+    <h1 style="text-align:center">This is heading 1 - center </h1>
+    <h2 style="text-align:left">This is heading 2 - left</h2>
+    <h3 style="text-align:right">This is heading 3 - right</h3>
+    <h4 style="text-align:justify">This is heading 4 - justify</h4>
+    <!-- 
+        <i>  (italic)
+        <em> (emphasized text)
+        <strong> (important text)
+        <mark> (marked/highlighted text)
+        <cite> (the title of a work)
+        <dfn> (a definition term)
+    -->
+
+    <img src="graphics/smiley.gif" alt="Smiley face" width="55" height="55" style="vertical-align:bottom; border:5px solid black" > bottom
+    <img src="graphics/smiley.gif" alt="Smiley face" width="85" height="35" style="vertical-align:middle; border:5px solid blue"> middle
+    <img src="graphics/smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:top; border:5px solid red"> top
+    <img src="graphics/smiley.gif" alt="Smiley face" width="42" height="42" style="float:right; border:5px solid green"> float-right-green
+    <img src="graphics/smiley.gif" alt="Smiley face" width="42" height="42" style="float:left; border:5px solid pink"> float-left-pink
+    <br>
+
+    <img src="graphics/smiley.gif" alt="Smiley face" width="22" height="22"
+        style="border:5px solid black;vertical-align:middle;margin:0px 50px">
+    
+    <img src="graphics/smiley.gif" alt="Smiley face" width="42" height="42"
+        style="border:5px solid black;vertical-align:middle;margin:50px 0px">
+
+
+    <h1>The map and area elements</h1>
+
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="graphics/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+    <h1>The input element</h1>
+
+    <form action="https://www.w3schools.com//action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Click the "Submit" button and the form-data will be sent to a page on the
+        server called "action_page.php".</p>
+
+    <!-- 
+        The <iframe> tag specifies an inline frame.
+        An inline frame is used to embed another document within the current HTML document.
+    -->
+
+    <!--
+        The different input types are as follows:
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text"> (default value)
+        <input type="time">
+        <input type="url">
+        <input type="week">
+
+        for input attributes check the following page
+        https://www.w3schools.com/tags/tag_input.asp
+    -->
+
+    
+</body>
+
+</html>
