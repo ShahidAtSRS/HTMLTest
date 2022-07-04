@@ -14,14 +14,15 @@ The trunk or main branch tends to follow a stylized directory structure, but som
 
 A README file containing a description of the project/dir should be created.
 
-As changes are made, the README file gets filled in with details about design choices, installation instructions, notable files and their contents, etc. For example, we might begin with:
+As changes are made, the README file gets filled in with details about design choices, installation instructions, notable files and their contents, etc. 
+For example, we might begin with:
 
 Files
 	README 	this file
 	tests 	testing files, in pairs of *.in, *.expected
 ================================================================
 
-HTMP-CSS practice files project
+HTML-CSS practice files project
 ===============================
 
 This directory contains HTML scafold, test index.html and other practice files. Here are more details:
@@ -29,16 +30,14 @@ This directory contains HTML scafold, test index.html and other practice files. 
 Files
 
 	README						This file
-	graphics 						folder to keep image files separate
+	graphics 					folder to keep image files separate
 	html scafold.HTML				HTML scafold file contains basic html instructions
-	TablePractice-SRSGradClass2022.html	html table practice showing 4 pics
+	TablePractice-SRSGradClass2022.html		html table practice showing 4 pics
 	test send email.html				command to start email client on your pc
   	
 no test files yes
 
-	test1.in						to be created
+	test1.in					to be created
 	test1.expected					to be created 
 
-
-
-to be added: python script runtests.py to run tests 
+Another important file to be added: python script runtests.py to run tests 
